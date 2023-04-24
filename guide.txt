@@ -1,0 +1,23 @@
+this is guide for VCO - based ADC design by ToiNguyenDinh supporter DucManhTran and HieuBuiDuy with:
+- Ipunt signal (sine and bpsk wave)
+- Voltage - Controlled Oscillator
+- Phase - Readout
+- Decimation Filter
+
+folde 		|	status
+matlab		|	calculate parameter for system:
+		|		+ input signal: Amplitude, Frequency
+		|		+ VCO:
+		|			* Frequency
+		|			* phase
+		|		* Phase - Readout
+		|		* Decimation Filter
+		|		* FFT
+xschem		|	lib (library)
+				* components that make up the systems
+			tb (test bench)
+				* simulation system (with bpsk and without bpsk)			
+verilog			calculate Sinc Filter
+
+python			convert data (plus 5 phases of RO)
+
